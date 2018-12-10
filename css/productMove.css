@@ -1,0 +1,89 @@
+.banner{
+	height: 4rem;
+	background-image:url(../img/31.png);
+}
+
+.nav{
+	height: 1.1rem;
+	line-height: 1.1rem;
+	box-shadow: 0px 1px 1px rgba(71,71,71,.2);
+	width: 100%;
+	bottom: 0px;
+	background:rgba(0,0,0,.7);
+	z-index: 100;
+}
+.nav a{
+	color:#fff
+}
+.marginR55px{
+	display: inline-block;
+	margin-right: 1.1rem;
+}
+.hardware{
+	margin:0.7rem 0rem 0.6rem;
+}
+.wrap{
+	flex-wrap: wrap;
+}
+.hardware-img{
+	width: 3rem;
+	height: 2rem;
+	display: block;
+	margin-bottom: 0.23rem;
+}
+.marginB23px{
+	margin-bottom: 0.23rem;
+}
+.hardware-txt{
+	/*margin-top: 0.75rem;*/
+}
+.marginB38px{
+	margin-bottom: 0.14rem;
+}
+.marginT38px{
+	margin-top: 0.5rem;
+}
+.marginR65px{
+	margin-right: 0.13rem;
+}
+.product-btn{
+	width:1.8rem;
+	height: 0.44rem;
+	line-height: 0.44rem;
+}
+
+
+.software{
+	background:#F5F5F6;
+	padding: 1.1rem 0px 0.8rem;
+}
+.software-img{
+	width: 3.0rem;display: block;
+}
+.marginR75px{
+	margin-right: 0.6rem;
+}
+.software-name{
+	width: 100%;
+	background:rgba(0,0,0,.7);
+	line-height: 0.5rem;
+	left: 0px;
+	bottom: 0px;
+}
+
+
+.scheme{
+	background-image: url(../img/39.png);
+	padding:0.92rem 0px 0.8rem;
+}
+.scheme-img-box{
+	margin:0.7rem 0px 1rem;
+}
+.scheme-img{
+	/*border:1px dashed #fff;*/
+	width: 3rem;display: block;margin-bottom: 0.25rem;
+}
+
+.contact.software{
+	background:#fff;
+}

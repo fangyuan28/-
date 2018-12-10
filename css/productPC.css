@@ -1,0 +1,80 @@
+.banner{
+	height: 396px;line-height: 396px;
+	background-image:url(../img/31.png);
+}
+
+.nav{
+	height: 56px;
+	line-height: 56px;
+	box-shadow: 0px 1px 1px rgba(71,71,71,.2);
+	width: 100%;
+	bottom: 0px;
+	background:rgba(0,0,0,.7);
+	z-index: 100;
+}
+.nav a{
+	color:#fff
+}
+.marginR55px{
+	display: inline-block;
+	margin-right: 55px;
+}
+.hardware{
+	margin:70px 0px 60px;
+}
+.hardware-img{
+	width: 305px;
+	height: 205px;
+	display: block;
+	margin-bottom: 23px;
+}
+.hardware-txt{
+	margin-top: 75px;
+}
+.marginB38px{
+	margin-bottom: 38px;
+}
+.marginR65px{
+	margin-right: 65px;
+}
+.product-btn{
+	width:178px;
+	height: 44px;
+	line-height: 44px;
+}
+
+
+.software{
+	background:#F5F5F6;
+	padding: 115px 0px 80px;
+}
+.software-img{
+	width: 420px;height: 284px;display: block;
+}
+.marginR75px{
+	margin-right: 75px;
+}
+.software-name{
+	width: 100%;
+	background:rgba(0,0,0,.7);
+	line-height: 54px;
+	left: 0px;
+	bottom: 0px;
+}
+
+
+.scheme{
+	background-image: url(../img/39.png);
+	padding:92px 0px 80px;
+}
+.scheme-img-box{
+	margin:70px 0px 100px;
+}
+.scheme-img{
+	border:1px dashed #fff;
+	width: 420px;height: 284px;display: block;margin-bottom: 25px;
+}
+
+.contact.software{
+	background:#fff;
+}

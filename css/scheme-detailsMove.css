@@ -1,0 +1,154 @@
+
+
+.banner{
+	height: 4.4rem;
+	background-image:url(../img/48.png);
+}
+.move-center{
+	text-align: center;
+}
+
+
+.build{
+	padding:0.62rem 0.25rem 1.24rem;
+}
+.build-header{
+	margin-bottom: 0.5rem;
+}
+
+.plate{
+	box-sizing: border-box;
+	padding:0rem 0.25rem;
+	height: 2.5rem;
+}
+.plate img{
+	width: 1.8rem;
+	margin-right: 0.25rem
+}
+.add img{
+	height: 0.5rem;
+}
+.juggle{
+	padding:0.2rem 0.25rem 0rem;
+	box-sizing: border-box;
+	height: 3rem
+}
+.juggle img{
+	height:1rem;margin-bottom: 0.2rem
+}
+.equal img{
+	height: 0.5rem;
+}
+.result img{
+	height: 0.86rem;
+}
+
+.marginTB36{
+	margin:0.36rem 0rem;
+}
+
+
+
+
+.move-size20{
+	font-size: 0.2rem!important
+}
+.wrap{
+	flex-wrap: wrap;
+}
+
+
+
+.summary{
+	background:#F5F5F6;
+	padding:0.8rem 0px 1.3rem;
+	color:#555;
+	line-height: 0.4rem;
+}
+.summary>.width1200{
+	padding:0rem 0.25rem;
+}
+.marginB70px{
+	margin-bottom: 0.7rem;
+}
+.move-bold{
+	font-weight: bold;
+}
+.marginB20px{
+	display: inline-flex;
+	margin-bottom: 0.2rem;
+}
+.framework-img{
+	width: 100%;display: block;margin:0.53rem auto 0.9rem;
+}
+
+.worth{
+	padding:0.5rem;border:1px solid #F5F5F6;
+}
+
+.worth-img{
+	width: 0.85rem;height: 0.85rem;border:1px solid #F5F5F6;
+	border-radius: 50%;
+	margin-right: 0.2rem;
+	flex-shrink: 0
+}
+.worth-img img{
+	display: block;
+}
+.intelligent{
+	width: 0.46rem; height:0.40rem;
+}
+.cost{
+	width: 0.44rem;height: 0.44rem;
+}
+.slip{
+	width: 0.36rem ;height:0.42rem;
+}
+.use{
+	width: 0.46rem ;height:0.28rem;
+}
+.marginB54px{
+	margin-bottom: 0.5rem;
+}
+.marginB46px{
+	margin-bottom: 0.46rem;
+}
+.move-marginB46px{
+	margin-bottom: 0.46rem;
+}
+.scene{
+	padding:0.5rem 0rem;
+}
+.scene-header{
+	margin-bottom: 0.6rem;
+}
+.scene-icon{
+	/*width: 280px;*/
+	/*height: 100px;*/
+	/*border:1px solid #474747;*/
+}
+.scene-icon img{
+	width: 0.5rem;
+	/*margin-right: 26px;*/
+}
+
+
+/*.aside{
+	position: fixed;
+	width: 196px;height: 300px;
+	right: 78px;
+	top: 50%;
+	transform: translateY(-50%);
+	border:1px solid #DCDCDC;
+	background:#fff;
+}
+.aside-header{
+	margin-bottom: 25px;
+}
+
+.aside-img img{
+	width: 70px;height: 70px;display: block;margin-top: 32px;
+}
+.aside-img-left{
+	margin-right: 18px;
+}*/
