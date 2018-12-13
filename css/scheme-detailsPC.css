@@ -11,7 +11,7 @@
 .build-header{
 	margin-bottom: 59px;
 }
-.plate img,.juggle img,.result img{
+.plate img,.result img{
 	border:1px dashed #222;
 }
 .juggle{
@@ -107,7 +107,8 @@
 
 .aside{
 	position: fixed;
-	width: 196px;height: 300px;
+	/*width: 196px;height: 300px;*/
+	padding:50px 30px;
 	right: 78px;
 	top: 50%;
 	transform: translateY(-50%);
@@ -123,4 +124,43 @@
 }
 .aside-img-left{
 	margin-right: 18px;
+}
+
+
+.point,.assembly{
+	margin-bottom: 20px;
+}
+.programme{
+	border:1px solid #ccc;
+	padding: 30px;
+}
+.point,.point-content{
+	margin-right: 50px;
+}
+.point-content{
+	padding:20px;
+}
+.assembly-content{
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap:wrap;
+  padding:20px;
+  font-size: 0px;
+
+}
+.assembly-content span{
+	font-size: 14px;
+	width: 30%; 
+	display: inline-block;
+	margin:0px 5% 20px 0px;
+	border:1px solid #ccc;
+	box-sizing: border-box;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.assembly-content span:nth-child(3n){
+	margin-right: 0px;
 }

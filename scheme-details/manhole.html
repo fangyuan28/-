@@ -12,7 +12,7 @@
 	<link type="text/css" rel="stylesheet" href="../css/scheme-detailsMove.css" media="only screen and (max-width:768px)"/>
 	<link type="text/css" rel="stylesheet" href="../css/scheme-detailsPC.css" media="only screen and (min-width:768px)"/>
 
-	<script src="./js/jquery-1.11.0.min.js"></script>
+	<script src="../js/jquery-1.11.0.min.js"></script>
 	<script src="../js/font-size.js"></script>
 </head>
 <body>
@@ -33,7 +33,7 @@
 			<div class="flex move-hiden">
 				<a href="login.html" title="">
 					<p class="flex al-ce login">
-						<img src="./img/user-icon.png" alt="">
+						<img src="../img/user-icon.png" alt="">
 						<span data-localize = 'con.a5' class="size16 cp">登录</span>
 					</p>
 				</a>
@@ -41,7 +41,7 @@
 			</div>
 			<!-- 手机端 -->
 			<div class="login flex al-ce pc-hiden">
-				<a href="login.html" title=""><img src="./img/user-icon.png" alt=""></a>
+				<a href="login.html" title=""><img src="../img/user-icon.png" alt=""></a>
 				<span class="san"></span>
 			</div>
 		</div>
@@ -49,8 +49,7 @@
 	<div class="banner background colorF flex al-ce">
 		<div class='width1200'>
 			<p class="size36 marginB30" data-localize = 'con.a102'>智慧井盖解决方案</p>
-			<p class="marginB30" data-localize = 'con.a103'>智慧井盖系统解决方案是依托犀牛核心板A系+传感器模块S2+传感器模块S3，能快速
-组成智慧井盖检测器，迅速验证商业模式。</p>
+			<p class="marginB30" data-localize = 'con.a103'>智慧井盖系统解决方案是依托犀牛核心板A系+传感器模块S2+传感器模块S3，能快速组成智慧井盖检测器，迅速验证商业模式。</p>
 			<p><a href="../contact.html" data-localize = 'con.a4' class="button" title="" data-localize = 'con.a4'>联系我们</a></p>
 		</div>
 	</div>
@@ -59,13 +58,11 @@
 			<div class="size30 center build-header" data-localize = 'con.a104'>
 				积木搭建
 			</div>
-			<div class="width1200">
+			<div class="width1200 move-hiden">
 				<div class="flex al-ce jc-sb build-img-box marginB20">
 					<p class="plate"><img src="../img/49.png" alt=""></p>
 					<p class="add"><img src="../img/52.png" alt=""></p>
 					<p class="juggle flex al-ce jc-ce"><img src="../img/50.png" alt=""></p>
-					<!-- <p class="equal"><img src="../img/53.png" alt=""></p> -->
-					<!-- <p class="result"><img src="../img/51.png" alt=""></p> -->
 				</div>
 				<div class='flex al-ce jc-sb'>
 					<div class="width304px">
@@ -78,11 +75,34 @@
 					</div>
 				</div>
 			</div>
+			<div class="pc-hiden">
+				<div class="flex al-ce plate dashed">
+					<div>
+						<p class=""><img src="../img/49.png" alt=""></p>
+					</div>
+					<div>
+						<p class="size20 center marginB20" data-localize = 'con.a105'>犀牛板A系列</p>
+						<p class="size16 color55" data-localize = 'con.a106'>犀牛版A系列是采用基于NB模块的数据采集和计算单元，提供1路232，2路UART，能对接NEW1系列的所有传感器</p>
+					</div>
+				</div>
+				<div class="center marginTB36">
+					<p class="add"><img src="../img/52.png" alt=""></p>
+				</div>
+				<div class="juggle dashed">
+					<div>
+						<p class="center"><img src="../img/50.png" alt=""></p>
+					</div>
+					<div class="width304px">
+						<p class="size20 center marginB20" data-localize = 'con.a107'>积木</p>
+						<p class="size16 color55" data-localize = 'con.a108'>犀牛版A系列是采用基于NB模块的数据采集和计算单元，提供1路232，2路UART，能对接NEW1系列的所有传感器</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="summary">
 			<div class='width1200'>
 				<div class='size30 center marginB70px' data-localize = 'con.a111'>方案概述</div>
-				<div>
+				<!-- <div>
 					<strong class="size16" data-localize = 'con.a112'>项目商业价值</strong><br>
 					<span>1、实现城市哑资产的管理，提升城市智能化水平和服务能力；</span><br>
 					<span>2、减少城市的井盖资产的流失5万/月</span><br>
@@ -103,11 +123,41 @@
 
 					<strong class="size16" data-localize = 'con.a121'>建设意义</strong><br>
 					<span class="marginB20px" data-localize = 'con.a122'>立足智慧城市，实现对于城市智能化水平的建设与提升，将原本属于暗资源的井盖，通过物联网智慧井盖监测终端“点亮”，减少丢失、破坏等导致的严重问题，促进“暗资源”的有效管理，减少不必要的经济损失。提高管控手段，减少运维成本，降低安全隐患，提升市政管理水平。</span>
-				</div>	
-				
+				</div> -->	
+				<div class="move-size20 programme">
+					<div class="flex al-ce jc-sb size20">
+						<div class='point marginR36 w100' data-localize = 'con.p1'>
+							方案特点：
+						</div>
+						<div class="assembly w100" data-localize = 'con.p2'>
+							方案组件：
+						</div>
+					</div>
+					<div class='flex jc-sb size14'>
+						<div class='point-content backgroundF marginR36 w100'>
+							<p data-localize = 'con.p3'>
+								全国已有井盖50亿个以上，每年新增、更换井盖1500万个以上，管理部门、人员和责任各不相同。井盖管理面临着数量多、部门杂、类型多、要求高等几大特点。如何降低管理工作量、提升效率，成为解决问题的核心。通过这期项目，我们为相关管理实现了以下商业价值：
+							</p>
+							<ul>
+								<li data-localize = 'con.p4'>实现城市哑资产的管理，提升城市智能化水平和服务能力</li>
+								<li data-localize = 'con.p5'>减少城市的井盖资产的流失5万/月</li>
+								<li data-localize = 'con.p6'>因盲目寻找停车位而附加的道路无效交通流的现象突出</li>
+								<li data-localize = 'con.p7'>减少危险事故的发生</li>
+								<li data-localize = 'con.p8'>增加污水堵塞预警监测，自动上报次数：8次/月</li>
+							</ul>
+						</div>
+						<div class='assembly-content backgroundF w100'>
+							<span data-localize = 'con.p9'>智慧井盖监测终端</span>
+							<span data-localize = 'con.p10'>物联网云</span>
+							<span data-localize = 'con.p11'>运营管理服务端</span>
+							<span data-localize = 'con.p12'>井盖管理APP</span>
+							<span data-localize = 'con.p13'>井盖管理PC软件</span>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-		<div class="flex jc-ce al-ce scene">
+		<!-- <div class="flex jc-ce al-ce scene">
 			<div>
 				<div class="scene-header size24 center" data-localize = 'con.a97'>
 					更多运用场景
@@ -131,14 +181,14 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</div> -->
 	</main>
-	<aside class="aside flex al-ce jc-ce">
+	<aside class="aside flex al-ce jc-ce size20">
 		<div>
-			<div class="size20 center aside-header">
+			<div class="center aside-header">
 				联系方式
 			</div>
-			<div class="color55">
+			<div class="color55 size14">
 				<p>
 					<span>姓名</span>：<span>姓名aa</span>
 				</p>
