@@ -83,3 +83,6 @@ $('.san').on('click',function(){
 
 
 
+// if(localStorage.getItem('PCGWName')){
+//   $('.login span').text(localStorage.getItem('PCGWName'))
+// }

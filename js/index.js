@@ -1,11 +1,11 @@
 
       
 // 轮播图
-$('.banner').terseBanner({auto:4000}); 
+$('.banner').terseBanner({auto:5000}); 
 
 
 // table切换
-$('.table-btn').on('click','.merit-img',function(){
+$('.table-btn').on('mouseover ','.merit-img',function(){
   $('.table').addClass('hiden')
   $('.table-btn').removeClass('color')
   $('.sjx').addClass('vis-hid')

@@ -9,14 +9,19 @@ $('.sub').on('click',function(){
 			client_id: '7sXsOalK5Kt8jn1CYTwcGI9f',
 			client_secret: 'cL9nzmSDjriDjzt19fT4uu6j6Q5OxTLT',
 		},
-		success(res){
+		success:function(res){
 			// console.log(res)
+			localStorage.PCGWName=$('.name').val()
 			window.location.href='index.html'
 		},
-		error(err){
-			// console.log(err)
+		error:function(err){
+			console.log(err)
 			alert(err.responseJSON.message)
 		}
 	})
+
+
 })
+
+
 
