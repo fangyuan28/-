@@ -21,6 +21,10 @@ $(window).scroll(function(){
 	}
 })
 
+$('.table-color').on('click',function(){
+	$('.table-color').removeClass('color')
+	 $(this).addClass('color')
+})
 
 
 
